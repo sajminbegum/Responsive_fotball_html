@@ -85,3 +85,49 @@ body{
     width: 32px;
     height: 32px;
 }
+
+
+/*media query*/
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+.banner {
+    grid-template-columns: 1fr;
+    width: 100%;
+    padding: 30px 6% 50px 6%;
+}
+    .banner_text {
+        margin-bottom: 40px;
+    }
+    .banner_text h2 {
+        font-size: 40px;
+        line-height: 55px;
+    }
+
+    .blogs_section {
+        padding: 50px 6%;
+        grid-template-columns: 1fr;
+        column-gap: 20px;
+    }
+
+    .highlight_section {
+        grid-template-columns: 1fr;
+        padding: 30px 6% 50px 6%;
+    }
+.hightlight_text {
+    margin-bottom: 40px;
+}
+.hightlight_text h2 {
+    font-size: 40px;
+    line-height: 55px;
+}
+
+
+.footer img {
+    width: 300px;
+}
+.social_icon img{
+    width: 32px;
+    height: 32px;
+}
+
+}
